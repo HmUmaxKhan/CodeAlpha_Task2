@@ -357,6 +357,10 @@ span{
     resize: none;
 }
 
+.captchaCenter{
+    display: flex;
+    justify-content: center;
+}
 .contact form .btn{
     cursor: pointer;
     margin-top: 1rem;
