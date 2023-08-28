@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js" async defer ></script>
      <!-- boxIcons -->
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -25,6 +26,7 @@
                 <input type="text" id="subject" placeholder="Email Subject">
             </div>
             <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="g-recaptcha" data-sitekey="6LeP9d0nAAAAAJPPvPZWlRZmYylC42TZzV-jfZm8"></div>
             <button class="btn" id="button" onclick="sendMail()"><i class='bx bx-mail-send'></i></button>
         </form>
     </section>
